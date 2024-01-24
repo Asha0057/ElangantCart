@@ -1,0 +1,153 @@
+#logo {
+    width: 50px;
+    height: 48px;
+    margin-top: 2px;
+}
+
+#home-image2 img {
+    border: none;
+}
+
+figcaption {
+    margin-top: 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navi {
+    height: 78px;
+}
+
+#aspire {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#quotes .card-text {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 25px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#explore {
+    margin-top: 2%;
+
+}
+
+#featured .card img {
+    height: 400px;
+}
+
+#featured .card {
+    transition: all .2s ease-in-out;
+}
+
+#featured .card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+}
+
+#f-product {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quotes2 .card-text {
+    margin: 4%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#aspire2 {
+    text-decoration: wavy;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#total {
+    color: red;
+}
+
+#cartList{
+    width:100%;
+}
+/*signup */
+.all {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: #ffebee; /* Light red background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #8e24aa; /* Maroon color */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5e1351; /* Darker shade on hover */
+}
+
+h2 {
+    color: #8e24aa; /* Maroon color for the heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+    #quotes .card-text {
+        text-align: center;
+        font-size: 18px;
+        line-height: 19px;
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
